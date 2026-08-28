@@ -1,276 +1,454 @@
-# Module-01 — Fundamentals
+# Module-01 — Fundamentos
 
-Exercise list for this module: `print()`, variables, data types, arithmetic operators, `input()`, and booleans.
+Lista de exercícios deste módulo: `print()`, variáveis, tipos de dados, operadores aritméticos, `input()` e booleanos.
 
-**Not covered yet in this module:** `if`/`else`, `for`/`while`, lists/arrays, string methods (`split`, `replace`, etc). Those come later — every exercise here is solvable with just print, variables, math, and basic type conversion.
+**Ainda não abordado neste módulo:** `if`/`else`, `for`/`while`, listas/arrays, métodos de string (`split`, `replace`, etc). Isso vem depois — todo exercício aqui é resolvível só com print, variáveis, matemática e conversão básica de tipo.
 
-Solve each one in its own file following the naming convention:
+Resolva cada um em seu próprio arquivo seguindo a convenção de nome:
 
 ```
-NN-descriptive-name.py
+NN-nome-descritivo.py
 ```
 
-Each exercise is solvable with what's introduced up to that point. New commands are explained **the first time they show up** — after that, you're expected to already know them. If a command isn't explained where you're at, scroll up — it was introduced earlier.
+Cada exercício é resolvível com o que já foi introduzido até ali. Comandos novos são explicados **na primeira vez que aparecem** — depois disso, já é esperado que você os conheça. Se um comando não estiver explicado onde você está, role para cima — ele foi introduzido antes.
 
-Challenges for this module (extra problems, separate from this list) live in [`challenges/`](./challenges/).
+Os desafios deste módulo (problemas extras, separados desta lista) ficam em [`challenges/`](./challenges/).
 
 ---
 
 ## 01 — hello
 
-Print `"Hello, world!"` to the console.
+Imprima `"Hello, world!"` no console.
 
 ```python
 print("Hello, world!")
 ```
 
-> 💡 **New command:** `print()` — outputs text (or any value) to the console. Anything inside the parentheses gets displayed.
+**Saída esperada:**
+```
+Hello, world!
+```
+
+> 💡 **Comando novo:** `print()` — exibe texto (ou qualquer valor) no console. Tudo que estiver dentro dos parênteses é mostrado.
 
 ---
 
 ## 02 — hello-name
 
-Store your name in a variable and print a greeting using it, like `"Hello, John!"`.
+Guarde seu nome em uma variável e imprima uma saudação usando ela, tipo `"Hello, John!"`.
 
-> 💡 **New concept:** variables — a name that holds a value, created with `name = value`. No need to declare a type; Python infers it.
+**Saída esperada (exemplo com nome "John"):**
+```
+Hello, John!
+```
+
+> 💡 **Conceito novo:** variáveis — um nome que guarda um valor, criado com `nome = valor`. Não é preciso declarar o tipo; o Python identifica sozinho.
 
 ---
 
 ## 03 — multi-print
 
-Print three different lines of text using three separate `print()` calls.
+Imprima três linhas diferentes de texto usando três chamadas separadas de `print()`.
+
+**Saída esperada (exemplo):**
+```
+Primeira linha
+Segunda linha
+Terceira linha
+```
 
 ---
 
 ## 04 — string-concat
 
-Create two string variables (first name, last name) and print them combined into a full name using `+`.
+Crie duas variáveis de texto (primeiro nome, sobrenome) e imprima elas combinadas em um nome completo usando `+`.
 
-> 💡 **New concept:** string concatenation — joining strings with `+`. Both sides must be strings, or Python raises an error.
+**Saída esperada (exemplo):**
+```
+John Doe
+```
+
+> 💡 **Conceito novo:** concatenação de strings — juntar textos com `+`. Os dois lados precisam ser strings, senão o Python gera um erro.
 
 ---
 
 ## 05 — f-string-intro
 
-Repeat exercise 04, but use an f-string instead of `+`.
+Repita o exercício 04, mas usando f-string em vez de `+`.
 
 ```python
 name = "John"
 print(f"Hello, {name}!")
 ```
 
-> 💡 **New syntax:** f-strings — `f"Hello, {name}"`. Anything inside `{}` is evaluated and inserted into the string. Cleaner than concatenation.
+**Saída esperada:**
+```
+Hello, John!
+```
+
+> 💡 **Sintaxe nova:** f-strings — `f"Hello, {name}"`. Tudo dentro de `{}` é avaliado e inserido no texto. Mais limpo que concatenação.
 
 ---
 
 ## 06 — int-vs-float
 
-Create one integer variable and one float variable, print both along with their type using `type()`.
+Crie uma variável inteira e uma variável float, imprima as duas junto com o tipo delas usando `type()`.
 
-> 💡 **New command:** `type()` — returns the data type of a value (`int`, `float`, `str`, `bool`, etc).
+**Saída esperada (exemplo):**
+```
+10 <class 'int'>
+3.5 <class 'float'>
+```
+
+> 💡 **Comando novo:** `type()` — retorna o tipo de dado de um valor (`int`, `float`, `str`, `bool`, etc).
 
 ---
 
 ## 07 — basic-math
 
-Create two number variables and print the result of adding, subtracting, multiplying, and dividing them.
+Crie duas variáveis numéricas e imprima o resultado da soma, subtração, multiplicação e divisão delas.
+
+**Saída esperada (exemplo com 10 e 3):**
+```
+13
+7
+30
+3.3333333333333335
+```
 
 ---
 
 ## 08 — division-types
 
-Divide two integers using `/` and then using `//`. Print both results and explain the difference in a comment.
+Divida dois números inteiros usando `/` e depois usando `//`. Imprima os dois resultados e explique a diferença em um comentário.
 
-> 💡 **New operator:** `//` — floor division, discards the decimal part. `7 / 2` is `3.5`, `7 // 2` is `3`.
+**Saída esperada (exemplo com 7 e 2):**
+```
+3.5
+3
+```
+
+> 💡 **Operador novo:** `//` — divisão inteira (floor division), descarta a parte decimal. `7 / 2` é `3.5`, `7 // 2` é `3`.
 
 ---
 
 ## 09 — modulo-intro
 
-Print the remainder of dividing two numbers.
+Imprima o resto da divisão de dois números.
 
-> 💡 **New operator:** `%` (modulo) — returns the remainder of a division. `7 % 2` is `1`.
+**Saída esperada (exemplo com 7 e 2):**
+```
+1
+```
+
+> 💡 **Operador novo:** `%` (módulo) — retorna o resto de uma divisão. `7 % 2` é `1`.
 
 ---
 
 ## 10 — total-pay
 
-Given `hours_worked` and `hourly_rate` variables, calculate and print the total pay.
+Dadas as variáveis `hours_worked` e `hourly_rate`, calcule e imprima o pagamento total.
+
+**Saída esperada (exemplo com 8 horas e R$25/hora):**
+```
+200.0
+```
 
 ---
 
 ## 11 — input-basics
 
-Ask the user for their name using `input()` and print a greeting with it.
+Peça o nome do usuário usando `input()` e imprima uma saudação com ele.
 
-> 💡 **New command:** `input()` — pauses execution and waits for the user to type something, always returns a `str`.
+**Saída esperada (exemplo, digitando "Maria"):**
+```
+Hello, Maria!
+```
+
+> 💡 **Comando novo:** `input()` — pausa a execução e espera o usuário digitar algo, sempre retorna um `str`.
 
 ---
 
 ## 12 — input-number
 
-Ask the user for two numbers (as text) and print their sum. Watch out — `input()` always returns text.
+Peça dois números ao usuário (como texto) e imprima a soma deles. Cuidado — `input()` sempre retorna texto.
 
-> 💡 **New command:** `int()` — converts a value into an integer. Needed because `input()` returns a string, not a number. There's also `float()` for decimals.
+**Saída esperada (exemplo digitando 4 e 6):**
+```
+10
+```
+
+> 💡 **Comando novo:** `int()` — converte um valor para número inteiro. Necessário porque `input()` retorna uma string, não um número. Também existe `float()` para decimais.
 
 ---
 
 ## 13 — celsius-to-fahrenheit
 
-Ask the user for a Celsius temperature and convert it to Fahrenheit.
+Peça ao usuário uma temperatura em Celsius e converta para Fahrenheit.
 
 ```python
 F = C * 9/5 + 32
+```
+
+**Saída esperada (exemplo com 100°C):**
+```
+212.0
 ```
 
 ---
 
 ## 14 — boolean-intro
 
-Create two boolean variables and print them, along with the result of combining them with `and` and `or`.
+Crie duas variáveis booleanas e imprima elas, junto com o resultado de combiná-las com `and` e `or`.
 
-> 💡 **New type:** `bool` — `True` or `False`. `and` / `or` combine boolean expressions.
+**Saída esperada (exemplo com True e False):**
+```
+True
+False
+False
+True
+```
+
+> 💡 **Tipo novo:** `bool` — `True` ou `False`. `and` / `or` combinam expressões booleanas.
 
 ---
 
 ## 15 — comparisons
 
-Create two number variables and print the result of comparing them with `==`, `!=`, `>`, `<`.
+Crie duas variáveis numéricas e imprima o resultado de compará-las com `==`, `!=`, `>`, `<`.
+
+**Saída esperada (exemplo com 5 e 8):**
+```
+False
+True
+False
+True
+```
 
 ---
 
 ## 16 — rectangle-area
 
-Given `width` and `height` variables, calculate and print the area of a rectangle.
+Dadas as variáveis `width` e `height`, calcule e imprima a área de um retângulo.
+
+**Saída esperada (exemplo com width=4, height=5):**
+```
+20
+```
 
 ---
 
 ## 17 — circle-area
 
-Given a `radius` variable, calculate and print the area of a circle. Use `3.14159` for pi (no imports yet).
+Dada a variável `radius`, calcule e imprima a área de um círculo. Use `3.14159` como valor de pi (sem imports ainda).
 
 ```python
 area = 3.14159 * radius * radius
+```
+
+**Saída esperada (exemplo com radius=3):**
+```
+28.27431
 ```
 
 ---
 
 ## 18 — average-of-three
 
-Create three number variables and print their average.
+Crie três variáveis numéricas e imprima a média delas.
+
+**Saída esperada (exemplo com 4, 8, 6):**
+```
+6.0
+```
 
 ---
 
 ## 19 — input-float
 
-Ask the user for a product price (as text) and print it converted to a `float`, along with its `type()`.
+Peça ao usuário o preço de um produto (como texto) e imprima ele convertido para `float`, junto com o `type()`.
+
+**Saída esperada (exemplo digitando 19.90):**
+```
+19.9 <class 'float'>
+```
 
 ---
 
 ## 20 — temperature-range
 
-Given two temperature variables (`today` and `yesterday`), print whether today is warmer using a comparison (`>`), without an `if` — just print the boolean result directly.
+Dadas duas variáveis de temperatura (`today` e `yesterday`), imprima o resultado de comparar se hoje está mais quente usando `>`, sem usar `if` — apenas imprima o booleano direto.
+
+**Saída esperada (exemplo com today=25, yesterday=22):**
+```
+True
+```
 
 ---
 
 ## 21 — is-adult
 
-Ask the user for their age (converted to `int`) and print the result of comparing it to `18` using `>=` — just the boolean, no `if` yet.
+Peça a idade do usuário (convertida para `int`) e imprima o resultado de compará-la com `18` usando `>=` — só o booleano, sem `if` ainda.
+
+**Saída esperada (exemplo digitando 20):**
+```
+True
+```
 
 ---
 
 ## 22 — string-vs-number
 
-Create a variable holding `"5"` (as text) and another holding `5` (as a number). Print both, then print the result of comparing them with `==`. Explain in a comment why the result is what it is.
+Crie uma variável guardando `"5"` (como texto) e outra guardando `5` (como número). Imprima as duas, depois imprima o resultado de comparar elas com `==`. Explique em um comentário por que o resultado é esse.
+
+**Saída esperada:**
+```
+5
+5
+False
+```
 
 ---
 
 ## 23 — combined-conversion
 
-Ask the user for two numbers as text, convert both to `float`, and print their sum, difference, and product.
+Peça ao usuário dois números como texto, converta os dois para `float`, e imprima a soma, a diferença e o produto deles.
+
+**Saída esperada (exemplo digitando 10 e 4):**
+```
+14.0
+6.0
+40.0
+```
 
 ---
 
 ## 24 — multiple-assignment
 
-Assign three variables in a single line and print them.
+Atribua três variáveis em uma única linha e imprima elas.
 
 ```python
 a, b, c = 1, 2, 3
+```
+
+**Saída esperada:**
+```
+1
+2
+3
 ```
 
 ---
 
 ## 25 — simple-interest
 
-Given `principal`, `rate`, and `time` variables, calculate simple interest.
+Dadas as variáveis `principal`, `rate` e `time`, calcule o juro simples.
 
 ```python
 interest = principal * rate * time
+```
+
+**Saída esperada (exemplo com principal=1000, rate=0.05, time=2):**
+```
+100.0
 ```
 
 ---
 
 ## 26 — round-numbers
 
-Ask for a float and print it rounded to 2 decimal places.
+Peça um float e imprima ele arredondado para 2 casas decimais.
 
-> 💡 **New command:** `round(value, digits)` — rounds a number to the given number of decimal places.
+**Saída esperada (exemplo digitando 3.14159):**
+```
+3.14
+```
+
+> 💡 **Comando novo:** `round(valor, casas)` — arredonda um número para a quantidade de casas decimais informada.
 
 ---
 
 ## 27 — abs-value
 
-Ask for a number and print its absolute value.
+Peça um número e imprima o valor absoluto dele.
 
-> 💡 **New command:** `abs()` — returns the absolute (non-negative) value of a number.
+**Saída esperada (exemplo digitando -7):**
+```
+7
+```
+
+> 💡 **Comando novo:** `abs()` — retorna o valor absoluto (não-negativo) de um número.
 
 ---
 
 ## 28 — const-naming
 
-Create three variables that represent constants (e.g. `PI`, `MAX_USERS`) following Python's naming convention for constants, and print them.
+Crie três variáveis que representem constantes (ex: `PI`, `MAX_USERS`) seguindo a convenção de nomenclatura do Python para constantes, e imprima elas.
 
-> 💡 **New convention:** Python has no true constants, but by convention names meant to never change are written in `ALL_CAPS`.
+**Saída esperada (exemplo):**
+```
+3.14159
+100
+```
+
+> 💡 **Convenção nova:** Python não tem constantes de verdade, mas por convenção nomes que nunca devem mudar são escritos em `ALL_CAPS` (maiúsculas).
 
 ---
 
 ## 29 — comment-practice
 
-Take any earlier exercise and add a `#` comment above each line explaining what it does.
+Pegue qualquer exercício anterior e adicione um comentário `#` acima de cada linha explicando o que ela faz.
 
-> 💡 **New syntax:** `#` starts a comment — ignored by Python, used to explain code to humans.
+> 💡 **Sintaxe nova:** `#` inicia um comentário — ignorado pelo Python, usado para explicar o código para humanos.
 
 ---
 
 ## 30 — mini-receipt
 
-Given `item_name`, `item_price`, and `quantity` variables, print a small formatted receipt showing the item, quantity, unit price, and total (price × quantity), using an f-string.
+Dadas as variáveis `item_name`, `item_price` e `quantity`, imprima um pequeno recibo formatado mostrando o item, quantidade, preço unitário e total (preço × quantidade), usando f-string.
+
+**Saída esperada (exemplo: item="Caderno", price=5.50, quantity=3):**
+```
+Item: Caderno
+Quantidade: 3
+Preço unitário: 5.5
+Total: 16.5
+```
 
 ---
 
 ## 31 — bmi-calculator
 
-Ask the user for weight (kg) and height (m), calculate BMI, and print the result rounded to 1 decimal place.
+Peça peso (kg) e altura (m) ao usuário, calcule o IMC, e imprima o resultado arredondado para 1 casa decimal.
 
 ```python
 bmi = weight / height ** 2
 ```
 
-> 💡 **New operator:** `**` — exponentiation. `height ** 2` means height squared.
+**Saída esperada (exemplo com weight=70, height=1.75):**
+```
+22.9
+```
+
+> 💡 **Operador novo:** `**` — exponenciação (potência). `height ** 2` significa altura ao quadrado.
 
 ---
 
 ## 32 — variable-type-juggling
 
-Create a variable holding a number as a string (e.g. `"42"`), convert it to `int`, do math with it, then convert the result back to `str` and print it concatenated with text.
+Crie uma variável guardando um número como texto (ex: `"42"`), converta para `int`, faça uma conta com ela, depois converta o resultado de volta para `str` e imprima concatenado com texto.
 
-> 💡 **New command:** `str()` — converts a value into a string. Useful when concatenating numbers with text using `+`.
+**Saída esperada (exemplo com "42" e +8):**
+```
+O resultado é 50
+```
+
+> 💡 **Comando novo:** `str()` — converte um valor para string. Útil para concatenar números com texto usando `+`.
 
 ---
 
-## Notes
+## Observações
 
-- Solve exercises in order — later ones assume you're comfortable with commands introduced earlier.
-- No `if`/`else`, `for`/`while`, lists, or string methods here — those get their own module once you've covered them in class or here.
-- Challenges for this module (extra problems, not part of this core list) live in [`challenges/`](./challenges/).
+- Resolva os exercícios em ordem — os seguintes assumem que você já domina os comandos introduzidos antes.
+- Nenhum `if`/`else`, `for`/`while`, listas ou métodos de string aqui — isso vem em outro módulo assim que for abordado em aula ou aqui.
+- Os desafios deste módulo (problemas extras, fora desta lista principal) ficam em [`challenges/`](./challenges/).
