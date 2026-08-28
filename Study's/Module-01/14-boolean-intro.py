@@ -1,4 +1,5 @@
-#Create two boolean variables and print them, along with the result of combining them with and and or.
+#Crie duas variáveis booleanas e imprima elas, junto com o resultado de combiná-las com and e or.
+
 a = True
 b = False
 

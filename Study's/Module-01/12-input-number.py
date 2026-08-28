@@ -1,4 +1,4 @@
-#Ask the user for two numbers (as text) and print their sum. Watch out — input() always returns text.
+#Peça dois números ao usuário (como texto) e imprima a soma deles. Cuidado — input() sempre retorna texto.
 
 number1 = int(input("Number 1:"))
 number2 = int(input("Number 2:"))

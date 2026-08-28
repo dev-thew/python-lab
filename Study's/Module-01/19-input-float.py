@@ -1,4 +1,4 @@
-#Ask the user for a product price (as text) and print it converted to a float, along with its type().
+#Peça ao usuário o preço de um produto (como texto) e imprima ele convertido para float, junto com o type().
 
 price = input("Enter the product price: ")
 price = float(price)

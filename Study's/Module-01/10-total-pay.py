@@ -1,4 +1,4 @@
-#Given hours_worked and hourly_rate variables, calculate and print the total pay.
+#Dadas as variáveis hours_worked e hourly_rate, calcule e imprima o pagamento total.
 
 hours_worked = 12
 hourly_rate = 10

@@ -1,3 +1,3 @@
-#Print "Hello, world!" to the console.
+#Imprima "Hello, world!" no console.
 
 print("Hello, world!")

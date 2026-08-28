@@ -1,5 +1,4 @@
-#Create two string variables (first name, last name) and print them combined into a full name using +.
-
+#Crie duas variáveis de texto (primeiro nome, sobrenome) e imprima elas combinadas em um nome completo usando +.
 name = "Matheus"
 last_name = "Brasil"
 

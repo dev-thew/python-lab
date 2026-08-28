@@ -1,4 +1,4 @@
-#Create one integer variable and one float variable, print both along with their type using type().
+#Crie uma variável inteira e uma variável float, imprima as duas junto com o tipo delas usando type().
 
 integer = 1
 floater = 2.5

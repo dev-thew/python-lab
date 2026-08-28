@@ -1,4 +1,4 @@
-#Ask the user for their name using input() and print a greeting with it.
+#Peça o nome do usuário usando input() e imprima uma saudação com ele.
 
 name = input("What's your name? ")
 

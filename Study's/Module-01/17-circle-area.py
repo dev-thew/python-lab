@@ -1,4 +1,4 @@
-#Given a radius variable, calculate and print the area of a circle. Use 3.14159 for pi (no imports yet).
+#Dada a variável radius, calcule e imprima a área de um círculo. Use 3.14159 como valor de pi (sem imports ainda).
 
 radius = 5
 area = 3.14159 * radius ** 2

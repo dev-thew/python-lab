@@ -1,4 +1,4 @@
-#Print the remainder of dividing two numbers.
+#Imprima o resto da divisão de dois números.
 
 number1 = 14
 number2 = 7

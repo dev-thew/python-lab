@@ -1,4 +1,4 @@
-#Create two number variables and print the result of adding, subtracting, multiplying, and dividing them.
+#Crie duas variáveis numéricas e imprima o resultado da soma, subtração, multiplicação e divisão delas.
 
 number1 = 5
 number2 = 8

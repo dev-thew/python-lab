@@ -1,4 +1,4 @@
-#Create two number variables and print the result of comparing them with ==, !=, >, <.
+#Crie duas variáveis numéricas e imprima o resultado de compará-las com ==, !=, >, <.
 
 x = 20
 y = 6

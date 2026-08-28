@@ -1,4 +1,4 @@
-#Create three number variables and print their average.
+#Crie três variáveis numéricas e imprima a média delas.
 
 a = 10
 b = 20
