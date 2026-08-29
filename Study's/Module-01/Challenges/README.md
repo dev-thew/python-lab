@@ -14,7 +14,7 @@ Nenhum comando novo aparece aqui — se precisar relembrar o que algum comando f
 
 ---
 
-## 01 — troco
+## 01 — change-due
 
 Dado um valor de compra (`purchase_value`) e um valor pago em dinheiro (`amount_paid`), calcule e imprima o troco a devolver.
 
@@ -25,7 +25,7 @@ Dado um valor de compra (`purchase_value`) e um valor pago em dinheiro (`amount_
 
 ---
 
-## 02 — media-ponderada
+## 02 — weighted-average
 
 Dadas três notas e seus respectivos pesos (ex: nota 7 com peso 2, nota 8 com peso 3, nota 9 com peso 5), calcule a média ponderada.
 
@@ -40,7 +40,7 @@ weighted_average = (n1 * w1 + n2 * w2 + n3 * w3) / (w1 + w2 + w3)
 
 ---
 
-## 03 — conversor-de-moeda
+## 03 — currency-converter
 
 Peça ao usuário um valor em reais (como texto) e uma cotação do dólar (como texto), converta ambos para `float`, e imprima o valor convertido em dólares, arredondado para 2 casas decimais.
 
@@ -51,7 +51,7 @@ Peça ao usuário um valor em reais (como texto) e uma cotação do dólar (como
 
 ---
 
-## 04 — tempo-em-segundos
+## 04 — time-in-seconds
 
 Peça ao usuário horas, minutos e segundos (três `input()` separados) e imprima o total convertido em segundos.
 
@@ -62,7 +62,7 @@ Peça ao usuário horas, minutos e segundos (três `input()` separados) e imprim
 
 ---
 
-## 05 — desconto-progressivo
+## 05 — discount-calculator
 
 Dado um valor de compra (`purchase_value`), calcule o valor com 15% de desconto aplicado, e imprima tanto o valor do desconto quanto o valor final — sem usar `if` para checar faixas, é sempre 15% fixo.
 
@@ -74,7 +74,7 @@ Valor final: 170.0
 
 ---
 
-## 06 — conta-compartilhada
+## 06 — split-the-bill
 
 Dado o valor total de uma conta (`total_bill`) e o número de pessoas (`number_of_people`), calcule quanto cada pessoa deve pagar, incluindo 10% de gorjeta no valor total antes de dividir.
 
@@ -85,7 +85,7 @@ Dado o valor total de uma conta (`total_bill`) e o número de pessoas (`number_o
 
 ---
 
-## 07 — comparacao-tripla
+## 07 — triple-comparison
 
 Peça ao usuário três números (via `input()`, convertidos para `float`) e imprima três booleanos: se o primeiro é maior que o segundo, se o segundo é maior que o terceiro, e se os três são diferentes entre si (usando `and`).
 
@@ -98,7 +98,7 @@ True
 
 ---
 
-## 08 — conversor-de-temperatura-completo
+## 08 — full-temperature-converter
 
 Peça ao usuário uma temperatura em Fahrenheit e converta para Celsius **e** para Kelvin, imprimindo os dois resultados.
 
@@ -115,7 +115,7 @@ kelvin = celsius + 273.15
 
 ---
 
-## 09 — juros-compostos-uma-parcela
+## 09 — compound-interest-single-period
 
 Dado um valor principal (`principal`), uma taxa de juros (`rate`) e o número de períodos (`periods`), calcule o montante final usando juros compostos.
 
@@ -130,7 +130,7 @@ amount = principal * (1 + rate) ** periods
 
 ---
 
-## 10 — relatorio-completo
+## 10 — full-sales-report
 
 Peça ao usuário o nome de um produto, a quantidade vendida e o preço unitário (três `input()`). Calcule o valor total da venda, aplique 8% de imposto sobre esse total, e imprima um mini relatório com: nome do produto, quantidade, preço unitário, subtotal, valor do imposto e total com imposto — tudo usando f-strings, cada informação em uma linha.
 
