@@ -3,10 +3,10 @@
 hour = int(input("Enter an hour (0-23):"))
 
 if 0 <= hour <= 5:
-    print(f"Hour: {hour}\nPeriod: Early Morning")
+    print(f"Period: Early Morning\n Good Early Morning")
 elif 6 <= hour <= 11:
-    print(f"Hour: {hour}\nPeriod: Morning")
+    print(f"Period: Morning\n Good Morning")
 elif 12 <= hour <= 17:
-    print(f"Hour: {hour}\nPeriod: Afternoon")
+    print(f"Period: Afternoon\n Good Afternoon")
 else:
-    print(f"Hour: {hour}\nPeriod: Night")
+    print(f"Period: Night\n Good Night")
