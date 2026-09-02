@@ -12,7 +12,7 @@ NN-nome-descritivo.py
 
 Cada exercício é resolvível com o que já foi introduzido até ali. Comandos novos são explicados **na primeira vez que aparecem** — depois disso, já é esperado que você os conheça. Se um comando não estiver explicado onde você está, role para cima — ele foi introduzido antes.
 
-Os desafios deste módulo (problemas extras, separados desta lista) ficam em [`challenges/`](./challenges/).
+Os desafios deste módulo (problemas extras, separados desta lista) ficam em [`Challenges/`](./Challenges/).
 
 ---
 
@@ -451,4 +451,4 @@ O resultado é 50
 
 - Resolva os exercícios em ordem — os seguintes assumem que você já domina os comandos introduzidos antes.
 - Nenhum `if`/`else`, `for`/`while`, listas ou métodos de string aqui — isso vem em outro módulo assim que for abordado em aula ou aqui.
-- Os desafios deste módulo (problemas extras, fora desta lista principal) ficam em [`challenges/`](./challenges/).
+- Os desafios deste módulo (problemas extras, fora desta lista principal) ficam em [`Challenges/`](./Challenges/).
