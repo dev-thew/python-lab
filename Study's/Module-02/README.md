@@ -12,7 +12,7 @@ Os arquivos seguem a convenção `NN-nome-descritivo.py`, por exemplo:
 
 Comandos novos são explicados apenas na primeira vez que aparecem neste README (nota 💡). Se precisar rever a explicação de algo, procure a primeira ocorrência do exercício correspondente.
 
-Veja também os [desafios deste módulo](challenges/README.md).
+Veja também os [desafios deste módulo](Challenges/README.md).
 
 ---
 
@@ -452,4 +452,4 @@ Valor final: R$256.50
 
 - A ordem dos exercícios segue: `if` simples → `if/else` → `if/elif/else` → condições compostas (`and`/`or`) → `if` aninhado.
 - Este módulo não usa `for`/`while`, listas, nem métodos de string — isso fica para módulos futuros.
-- Veja os [desafios deste módulo](challenges/README.md) para exercícios que combinam esses conceitos de forma mais livre.
+- Veja os [desafios deste módulo](Challenges/README.md) para exercícios que combinam esses conceitos de forma mais livre.
