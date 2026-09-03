@@ -43,6 +43,15 @@ Preço do ingresso: R$5.00
 
 Dados peso (`weight`), altura (`height`) e idade (`age`), calcule o IMC e gere um relatório combinando a classificação do IMC com a faixa etária da pessoa em uma única frase.
 
+Use as mesmas faixas do exercício 16 da lista principal:
+
+| IMC | Classificação |
+|---|---|
+| < 18.5 | Abaixo do peso |
+| 18.5 – 24.9 | Normal |
+| 25 – 29.9 | Sobrepeso |
+| >= 30 | Obesidade |
+
 **Saída esperada (exemplo com `weight=68`, `height=1.70`, `age=30`):**
 ```
 Adulto com IMC 23.53 (Normal).
@@ -97,6 +106,15 @@ Empréstimo aprovado.
 ## 09 — grade-final-report
 
 Dadas três notas (`grade1`, `grade2`, `grade3`) e a frequência (`attendance`), calcule a média das notas, aplique a regra de reprovação por falta (frequência < 75%) com prioridade sobre a nota, e classifique o resultado final em conceito (A/B/C/D) apenas se aprovado.
+
+Use as mesmas faixas do exercício 15 da lista principal:
+
+| Média | Conceito |
+|---|---|
+| >= 9 | A |
+| >= 7 | B |
+| >= 5 | C |
+| < 5 | D |
 
 **Saída esperada (exemplo com `grade1=8`, `grade2=9`, `grade3=7`, `attendance=90`):**
 ```
